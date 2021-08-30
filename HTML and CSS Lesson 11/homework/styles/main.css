@@ -350,10 +350,13 @@
   .skillEditText {
     margin-left: 10%;
     margin-top: 30px;
-    width: 166px;
+    width: 109px;
     font-weight: 600;
     font-size: 12px;
     line-height: 25px;
+  }
+  .skillEditText1 {
+    margin-left: -29px;
   }
   .skillEditProfile {
     margin-bottom: 31px;
@@ -364,7 +367,7 @@
     margin-bottom: 9px;
   }
   .skillEditText1 {
-    width: 298px;
+    width: 242px;
     margin-top: 30px;
     font-size: 12px;
     line-height: 25px;
