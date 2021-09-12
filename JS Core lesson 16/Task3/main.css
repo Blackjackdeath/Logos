@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    display: flex;
+    justify-content: center;
+}
+div{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+.wrapper{
+    width: 80%;
+    margin-top: 10%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+    position: absolute;
+    height: 27%;
+    flex-wrap: wrap;
+    
+}
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 20px 0px;
+}
+.box:nth-of-type(1){
+    background-color: red;
+}
+.box:nth-of-type(2){
+    background-color: blue;
+}
+.box:nth-of-type(3){
+    background-color: yellow;
+}
+.box:nth-of-type(4){
+    background-color: lightskyblue;
+}
+.box:nth-of-type(5){
+    background-color: gray;
+}
+.modalWindow{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.edit{
+    border: none;
+    position: relative;
+    margin: 10% auto 0;
+    height: 74%;
+}
+.active{
+    background-color: rgb(14 13 13 / 80%);
+    z-index: 5;
+}
+.modalBox{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: none;
+}
